@@ -1,0 +1,44 @@
+.hero {
+  background-image: url('images/hero-background2.webp'); /* Voeg een professionele achtergrondafbeelding toe */
+  background-size: cover;
+  background-position: top;
+  color: white;
+  text-align: center;
+  width: 1300px;
+  height: 400px;
+  margin-bottom: 16px;
+}
+.hero-content{
+  margin: 14rem 2rem;
+}
+
+.hero-content h1 {
+  
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: rgb(93,155,155);
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: all 150ms ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: rgba(93,155,155,0.9);
+  border-style: solid;
+  border-color: white;
+  border-radius: .5px;
+  border-radius: 5px;
+  padding: 9.5px 19.5px;
+}

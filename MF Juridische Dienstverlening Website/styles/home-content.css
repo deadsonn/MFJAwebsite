@@ -1,0 +1,27 @@
+.home-content {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.home-content h2, .home-content h3 {
+  color: rgb(93,155,155);
+}
+
+.home-content ul {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+.home-content ul li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+h3{
+  margin-top: 2rem;
+}
