@@ -3,19 +3,23 @@
   color: #fff;
   padding: 40px 20px;
   font-size: 0.9rem;
+  width: 97%;
+
+ 
 }
 
 .footer-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 1200px;
+  justify-content: center;
+  max-width: 100%;
   margin: 0 auto;
+  align-items: center;
 }
 
 .footer-container div {
   flex: 1;
-  margin: 10px 20px;
+  margin: 5px 200px; /*sets margin of divs in footer-container class*/
 }
 
 .footer h4 {

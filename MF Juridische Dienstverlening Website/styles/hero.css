@@ -1,8 +1,8 @@
 .hero {
-  background-image: url('images/hero-background2.webp'); /* Voeg een professionele achtergrondafbeelding toe */
+  background-image: url('images/hero-background3.webp'); /* Voeg een professionele achtergrondafbeelding toe */
   background-size: cover;
   background-position: top;
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
   width: 1300px;
   height: 400px;
@@ -16,12 +16,16 @@
   
   font-size: 2.5rem;
   margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  
 }
 
 .hero-content p {
   font-size: 1.2rem;
   margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
+
 
 .cta-button {
   display: inline-block;
